@@ -22,7 +22,7 @@ class React2Native: RCTEventEmitter {
         self.sendEvent(withName: "EventReminder", body: ret)
     }
     
-    @objc override func constantsToExport() -> [AnyHashable : Any]! {
-        return [:]
-    }
+//    @objc override func constantsToExport() -> [AnyHashable : Any]! {
+//        return [:]
+//    }
 }
